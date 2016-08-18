@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\nitin\AndroidStudioProjects\Quizapp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\nitin\AndroidStudioProjects\Quizapp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_19b5c09912fec4327e0dea1ee8eaee1200167685.jar" />
+    </item>
+    <item
+        jar="C:\Users\nitin\Desktop\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\nitin\AndroidStudioProjects\Quizapp\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_2ab0d8fb12ee1b7767ec967b6f5839a309384448.jar" />
+    </item>
+    <item
+        jar="C:\Users\nitin\AndroidStudioProjects\Quizapp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\nitin\AndroidStudioProjects\Quizapp\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_b6aa5196502f76cd5a224e5df3cd438493ffe3f0.jar" />
+    </item>
+    <item
+        jar="C:\Users\nitin\AndroidStudioProjects\Quizapp\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="C:\Users\nitin\AndroidStudioProjects\Quizapp\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.0.1_212ec8f615c766afa986fecd547ddc6524b8d47f.jar" />
+    </item>
+    <item
+        jar="C:\Users\nitin\AndroidStudioProjects\Quizapp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\nitin\AndroidStudioProjects\Quizapp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_44b5b4c6054188c6913b89eacfcfb114ead434b6.jar" />
+    </item>
+
+</items>
