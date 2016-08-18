@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">IsPrime</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_line">Is</string>
+    <string name="last_line">a Prime Number ?</string>
+    <string name="saved_number">getNumber</string>
+    <string name="correct_string">Correct !</string>
+    <string name="incorrect_string">Incorrect !</string>
+    <string name="agree">Yes</string>
+    <string name="disagree">No</string>
+    <string name="next">Next</string>
+    <string name="not_known">Nothing can be said !</string>
+    <string name="blank"></string>
+</resources>

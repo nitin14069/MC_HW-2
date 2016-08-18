@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+  >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="36dp">
+        <Button
+            android:id="@+id/yesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/agree"/>
+        <Button
+            android:id="@+id/noButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/disagree"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:text="@string/first_line"
+        android:layout_gravity="center_horizontal|top"
+        android:textSize="20dp"
+        android:id="@+id/block1"
+        android:layout_marginTop="43dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="-116dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="35dp"
+        android:textSize="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/question"
+        android:layout_marginLeft="-75dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:text="@string/last_line"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="43dp"
+        android:textSize="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/block3"
+        android:layout_marginLeft="37dp" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:drawableRight="@mipmap/next"
+        android:layout_gravity="right|bottom"
+        android:textAlignment="center" />
+</FrameLayout>
