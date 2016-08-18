@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\nitin\\AndroidStudioProjects\\Quizapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\nitin\\AndroidStudioProjects\\Quizapp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\nitin\\AndroidStudioProjects\\Quizapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\next.png",
+        "source": "C:\\Users\\nitin\\AndroidStudioProjects\\Quizapp\\app\\src\\main\\res\\mipmap-hdpi\\next.png"
+    }
+]
