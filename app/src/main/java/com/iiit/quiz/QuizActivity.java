@@ -1,5 +1,6 @@
 package com.iiit.quiz;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -16,6 +17,8 @@ public class QuizActivity extends AppCompatActivity {
     Button yes;
     Button no;
     Button next;
+    Button Hint;
+    Button Cheat;
     Random r = new Random();
     static int number;
     static boolean isprime;
@@ -25,6 +28,8 @@ public class QuizActivity extends AppCompatActivity {
     String unknown;
     String empty;
     String textDisplay;
+    static int hint_Activity=1;
+    static int cheat_Activity=2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +43,8 @@ public class QuizActivity extends AppCompatActivity {
         yes = (Button)findViewById(R.id.yesButton);
         no = (Button)findViewById(R.id.noButton);
         next = (Button)findViewById(R.id.nextButton);
+        Hint = (Button)findViewById(R.id.hintButton);
+        Cheat = (Button)findViewById(R.id.cheatButton);
         if(savedInstanceState==null)
         {
             number = 1 + r.nextInt(1000);
@@ -50,6 +57,26 @@ public class QuizActivity extends AppCompatActivity {
         CheckPrime();
         textDisplay = number+empty;
         tv.setText(textDisplay);
+
+        Cheat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //check for prime number for number
+                Intent cheat_Intent = new Intent(QuizActivity.this, CheatActivity.class);
+                cheat_Intent.putExtra(getString(R.string.access), isprime);
+                startActivityForResult(cheat_Intent, cheat_Activity);
+            }
+        });
+
+        Hint.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //check for prime number for number
+                Intent hint_Intent = new Intent(QuizActivity.this,HintActivity.class);
+                startActivityForResult(hint_Intent,hint_Activity);
+            }
+        });
+
         yes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -64,7 +91,12 @@ public class QuizActivity extends AppCompatActivity {
                 if (number == 1) {
                     disp = unknown;
                 }
-
+                /*
+                yes.setVisibility(View.INVISIBLE);
+                no.setVisibility(View.INVISIBLE);
+                Hint.setVisibility(View.INVISIBLE);
+                Cheat.setVisibility(View.INVISIBLE);
+                */
                 Toast.makeText(QuizActivity.this, disp, Toast.LENGTH_SHORT).show();
             }
         });
@@ -86,6 +118,12 @@ public class QuizActivity extends AppCompatActivity {
                 {
                     disp = unknown;
                 }
+                /*
+                yes.setVisibility(View.INVISIBLE);
+                no.setVisibility(View.INVISIBLE);
+                Hint.setVisibility(View.INVISIBLE);
+                Cheat.setVisibility(View.INVISIBLE);
+                */
                 Toast.makeText(QuizActivity.this,disp,Toast.LENGTH_SHORT).show();
             }
         });
@@ -109,6 +147,54 @@ public class QuizActivity extends AppCompatActivity {
         outState.putInt(saved_number, number);
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if(requestCode==hint_Activity)
+        {
+            Boolean access;
+            if(data==null)
+            {
+                access=false;
+            }
+            else
+            {
+                access=data.getBooleanExtra(getString(R.string.access),false);
+            }
+
+            if(access==true)
+            {
+                Toast.makeText(QuizActivity.this,getString(R.string.yes_string_access_hint),Toast.LENGTH_SHORT).show();
+            }
+            else
+            {
+                Toast.makeText(QuizActivity.this,getString(R.string.no_string_access_hint),Toast.LENGTH_SHORT).show();
+            }
+
+        }
+        if(requestCode==cheat_Activity)
+        {
+            Boolean access;
+            if(data==null)
+            {
+                access=false;
+            }
+            else
+            {
+                access=data.getBooleanExtra(getString(R.string.access),false);
+            }
+
+            if(access==true)
+            {
+                Toast.makeText(QuizActivity.this,getString(R.string.yes_string_access_cheat),Toast.LENGTH_SHORT).show();
+            }
+            else
+            {
+                Toast.makeText(QuizActivity.this,getString(R.string.no_string_access_cheat),Toast.LENGTH_SHORT).show();
+            }
+
+        }
+    }
 
     private void CheckPrime()
     {

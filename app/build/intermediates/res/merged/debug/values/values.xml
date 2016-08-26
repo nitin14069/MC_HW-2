@@ -256,20 +256,38 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="access">takeHint</string>
     <string name="action_settings">Settings</string>
     <string name="agree">Yes</string>
+    <string name="answer_cheat_false">, it is not a Prime number</string>
+    <string name="answer_cheat_true">, it is a Prime number</string>
     <string name="app_name">IsPrime</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="ask_cheat">Click Cheat if you want !</string>
+    <string name="ask_hint">Click Hint if you want !</string>
     <string name="blank"/>
+    <string name="cheat">Cheat</string>
     <string name="correct_string">Correct !</string>
     <string name="disagree">No</string>
     <string name="first_line">Is</string>
+    <string name="give_hint">A Number is not prime if it has factors other than 1 and itself !</string>
+    <string name="hint">Hint  </string>
     <string name="incorrect_string">Incorrect !</string>
     <string name="last_line">a Prime Number ?</string>
+    <string name="message_hint">Click to access the hint</string>
     <string name="next">Next</string>
+    <string name="no_cheat_answer">Answer is No !</string>
+    <string name="no_string_access_cheat">You did not cheat !</string>
+    <string name="no_string_access_hint">You did not take the hint !</string>
     <string name="not_known">Nothing can be said !</string>
     <string name="saved_number">getNumber</string>
+    <string name="saved_state">getState</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="title_activity_cheat">CheatActivity</string>
+    <string name="title_activity_hint">HintActivity</string>
+    <string name="yes_cheat_answer">Answer is Yes !</string>
+    <string name="yes_string_access_cheat">You Cheated !</string>
+    <string name="yes_string_access_hint">You took the hint !</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

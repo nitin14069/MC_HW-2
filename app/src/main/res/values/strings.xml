@@ -4,6 +4,7 @@
     <string name="first_line">Is</string>
     <string name="last_line">a Prime Number ?</string>
     <string name="saved_number">getNumber</string>
+    <string name="saved_state">getState</string>
     <string name="correct_string">Correct !</string>
     <string name="incorrect_string">Incorrect !</string>
     <string name="agree">Yes</string>
@@ -11,4 +12,21 @@
     <string name="next">Next</string>
     <string name="not_known">Nothing can be said !</string>
     <string name="blank"></string>
+    <string name="hint">Hint  </string>
+    <string name="title_activity_hint">HintActivity</string>
+    <string name="message_hint">Click to access the hint</string>
+    <string name="answer_cheat_true">, it is a Prime number</string>
+    <string name="answer_cheat_false">, it is not a Prime number</string>
+    <string name="cheat">Cheat</string>
+    <string name="ask_hint">Click Hint if you want !</string>
+    <string name="ask_cheat">Click Cheat if you want !</string>
+    <string name="yes_cheat_answer">Answer is Yes !</string>
+    <string name="no_cheat_answer">Answer is No !</string>
+    <string name="give_hint">A Number is not prime if it has factors other than 1 and itself !</string>
+    <string name="access">takeHint</string>
+    <string name="yes_string_access_hint">You took the hint !</string>
+    <string name="no_string_access_hint">You did not take the hint !</string>
+    <string name="yes_string_access_cheat">You Cheated !</string>
+    <string name="no_string_access_cheat">You did not cheat !</string>
+    <string name="title_activity_cheat">CheatActivity</string>
 </resources>

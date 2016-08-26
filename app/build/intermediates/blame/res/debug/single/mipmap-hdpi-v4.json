@@ -4,6 +4,10 @@
         "source": "C:\\Users\\nitin\\AndroidStudioProjects\\Quizapp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\nitin\\AndroidStudioProjects\\Quizapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\hint.png",
+        "source": "C:\\Users\\nitin\\AndroidStudioProjects\\Quizapp\\app\\src\\main\\res\\mipmap-hdpi\\hint.png"
+    },
+    {
         "merged": "C:\\Users\\nitin\\AndroidStudioProjects\\Quizapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\next.png",
         "source": "C:\\Users\\nitin\\AndroidStudioProjects\\Quizapp\\app\\src\\main\\res\\mipmap-hdpi\\next.png"
     }

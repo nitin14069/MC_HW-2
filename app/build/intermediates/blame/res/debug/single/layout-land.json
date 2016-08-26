@@ -1,10 +1,26 @@
 [
     {
+        "merged": "C:\\Users\\nitin\\AndroidStudioProjects\\Quizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\content2_hint.xml",
+        "source": "C:\\Users\\nitin\\AndroidStudioProjects\\Quizapp\\app\\src\\main\\res\\layout-land\\content2_hint.xml"
+    },
+    {
+        "merged": "C:\\Users\\nitin\\AndroidStudioProjects\\Quizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\content2_cheat.xml",
+        "source": "C:\\Users\\nitin\\AndroidStudioProjects\\Quizapp\\app\\src\\main\\res\\layout-land\\content2_cheat.xml"
+    },
+    {
+        "merged": "C:\\Users\\nitin\\AndroidStudioProjects\\Quizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_cheat.xml",
+        "source": "C:\\Users\\nitin\\AndroidStudioProjects\\Quizapp\\app\\src\\main\\res\\layout-land\\activity_cheat.xml"
+    },
+    {
         "merged": "C:\\Users\\nitin\\AndroidStudioProjects\\Quizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\content2_quiz.xml",
         "source": "C:\\Users\\nitin\\AndroidStudioProjects\\Quizapp\\app\\src\\main\\res\\layout-land\\content2_quiz.xml"
     },
     {
         "merged": "C:\\Users\\nitin\\AndroidStudioProjects\\Quizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_quiz.xml",
         "source": "C:\\Users\\nitin\\AndroidStudioProjects\\Quizapp\\app\\src\\main\\res\\layout-land\\activity_quiz.xml"
+    },
+    {
+        "merged": "C:\\Users\\nitin\\AndroidStudioProjects\\Quizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_hint.xml",
+        "source": "C:\\Users\\nitin\\AndroidStudioProjects\\Quizapp\\app\\src\\main\\res\\layout-land\\activity_hint.xml"
     }
 ]
